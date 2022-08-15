@@ -1,4 +1,4 @@
-The AStartup Meta Media Downloader is a fair-use intermediary step image and video downloader and quick sorter for social media sites like Facebook and Instagram.
+The AStartup Meta Media Downloader is a fair-use intermediary step image and video downloader and metadata quick sorter for social media sites like Facebook and Instagram.
 
 ## Volunteers Needed
 
