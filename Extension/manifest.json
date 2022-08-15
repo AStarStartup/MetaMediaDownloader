@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Meta Image Downloader",
+  "description": "A multimedia and metadata auto-downloader and buck quick sorter for social media sites like Facebook and Instagram.",
+  "version": "0.0.1",
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+  },
+  "action": {
+    "default_icon": {
+      "128": "icon128.png",
+      "48": "icon48.png",
+      "16": "icon16.png"
+    },
+    "default_title": "Meta Image Downloader",
+    "default_popup": "Popup.html"
+  },
+  "options_page": " Options.html",
+  "background": {
+    "service_worker": "Background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://developer.chrome.com/*"],
+      "js": ["Content.js", "jquery-3.5.1.min.js"],
+      "css": ["Content.css"]
+    }
+  ],
+  "permissions": [
+    "notifications",
+    "tts",
+    "storage",
+    "contextMenus",
+    "alarms",
+    "notifications"
+  ]
+}

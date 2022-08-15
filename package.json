@@ -1,0 +1,25 @@
+{
+  "name": "MetaMediaDownloader",
+  "version": "0.0.1",
+  "description": "The AStartup Meta Media Downloader is a browser/Chrome extension for downloading images and metadata from social media sites like Facebook and Instragram.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AStarStartup/AStartupMCC.git"
+  },
+  "keywords": [
+    "Startup"
+  ],
+  "author": "Cale McCollough",
+  "license": "Kabuki Strong Source-available License",
+  "bugs": {
+    "url": "https://github.com/AStarStartup/AStartupMCC/issues"
+  },
+  "homepage": "https://github.com/AStarStartup/AStartupMCC#readme"
+}
